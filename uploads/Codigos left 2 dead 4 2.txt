@@ -1,0 +1,33 @@
+* Dead Center: 
+ss_map c1m1_hotel 
+ss_map c1m2_streets 
+ss_map c1m3_mall
+ss_map c1m4_atrium 
+
+* Dark Carnival:
+ss_map c2m1_highway 
+ss_map c2m2_fairgrounds 
+ss_map c2m3_coaster 
+ss_map c2m4_barns 
+ss_map c2m5_concert 
+
+* Swamp Fever: 
+ss_map c3m1_plankcountry 
+ss_map c3m2_swamp 
+ss_map c3m3_shantytown 
+ss_map c3m4_plantation 
+
+* Hard Rain: 
+ss_map c4m1_milltown_a 
+ss_map c4m2_sugarmill_a 
+ss_map c4m3_sugarmill_b 
+ss_map c4m4_milltown_b 
+ss_map c4m5_milltown_escape 
+
+* The Parish: 
+ss_map c5m1_waterfront_sndscape 
+ss_map c5m1_waterfront 
+ss_map c5m2_park 
+ss_map c5m3_cemetery 
+ss_map c5m4_quarter 
+ss_map c5m5_bridge

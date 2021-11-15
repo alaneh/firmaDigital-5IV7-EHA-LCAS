@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Firma digital</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Firma electrónica en NODE JS</h1>
+        <p>Para firmar documentos solo sube el archivo del primer campo</p>
+        <p>Para comprobar si el archivo es veraz llena todos los campos</p>
+        <div id="overview">
+            <form id="formulario" method="POST" encType="multipart/form-data">
+                <h2>Selecciona el archivo que deseas firmar o en su defecto verificar</h2>
+                <input type="file" id="subir_archivo" name="subir_archivo" class="box-upload" /><br>
+                <br>
+                <b>Clave pública: </b><input type="text" id="Password" name="Password" placeholder="Ingrese su clave pública" minlength="16" /><br>
+                <br>
+                <b>Firma digital: </b><input type="text" id="Password2" name="Password2" placeholder="Ingrese su firma digital" minlength="16" />
+                <div id="resultado"></div>
+                <br>
+                <input type="submit" class="submit" onclick="Cifrado(event)" value="Firmar">
+                <input type="submit" class="submit" onclick="Decifrado(event)" value="Verificar">
+            </form>
+        </div>
+        <footer>
+            <h3>Desarrollado por</h3>
+            <p>Elizalde Hernández Alan</p>
+            <p>Lopez Castillo Azurim Sua</p>
+            <a href="https://github.com/alaneh/firmaDigital-5IV7-EHA-LCAS">Repositorio de GitHub</a>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="resources/js/scripts.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+* {
+    background-color: rgb(217, 205, 255);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.submit {
+    color: white;
+    background-color: rgb(85, 70, 170);
+    padding: 15px 20px;
+    margin: 0;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: rgb(129, 107, 255);
+}
+
+input {
+    color: white;
+    background-color: rgb(0, 45, 82);
+    padding: 15px 20px;
+    margin: 0;
+    border: 0;
+    border-radius: 5px;
+}
